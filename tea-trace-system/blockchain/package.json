@@ -1,0 +1,21 @@
+{
+  "name": "tea-trace-system-blockchain",
+  "version": "0.1.0",
+  "private": true,
+  "description": "茶叶溯源系统区块链工程",
+  "scripts": {
+    "clean": "hardhat clean",
+    "compile": "node scripts/compile.js",
+    "compile:hardhat": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network ganache --no-compile",
+    "deploy:ganache": "hardhat run scripts/deploy.js --network ganache --no-compile",
+    "smoke:test": "node scripts/smoke-test.js",
+    "start:ganache": "ganache --server.host 127.0.0.1 --server.port 7545 --chain.chainId 1337 --wallet.deterministic --wallet.totalAccounts 10 --wallet.accountKeysPath ./deployments/ganache-accounts.json"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.4",
+    "hardhat": "^2.22.17"
+  }
+}

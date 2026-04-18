@@ -1,0 +1,11 @@
+{
+  "name": "tea-trace-system-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "茶叶溯源系统前端骨架",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}

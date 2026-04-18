@@ -1,0 +1,12 @@
+{
+  "contractName": "TeaTraceability",
+  "contractAddress": "0xe78A0F7E598Cc8b0Bb87894B0F60dD2a88d6a8Ab",
+  "networkName": "ganache",
+  "chainId": 1337,
+  "deployerAddress": "0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1",
+  "deployerBalance": "1000.0",
+  "deploymentTxHash": "0x78efcc184e0a40a8bc4f02e0ecdedcd4c65579722d94d8ef2dfabcfae2b3a7d3",
+  "deployedAt": "2026-04-17T15:39:20.957Z",
+  "rpcUrl": "http://127.0.0.1:7545",
+  "artifactPath": "artifacts/contracts/TeaTraceability.sol/TeaTraceability.json"
+}
